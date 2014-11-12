@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="lollipop-dev"
-           remote="aosp"
-           sync-j="4" />
-
   <remote  name="ti-mirror"
            fetch=".."
            review="https://review.omapzoom.org/" />
@@ -15,6 +8,13 @@
   <remote name="x15-product"
 	  fetch="https://github.com/nmenon/beaglex15.git" />
 
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+
+  <default revision="lollipop-dev"
+           remote="aosp"
+           sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
