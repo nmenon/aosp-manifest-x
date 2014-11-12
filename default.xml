@@ -6,7 +6,7 @@
            review="http://review.omapzoom.org/" />
 
   <remote name="x15-product"
-	  fetch="https://github.com/nmenon/" />
+	  fetch="https://github.com/" />
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/"
@@ -491,7 +491,7 @@
 
 <!-- TI addons -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
- <project remote="x15-product" revision="d-lollipop-release" path="device/ti/beaglex15" name="beaglex15.git" groups="device,ti" />
+ <project remote="x15-product" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
 
 
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
