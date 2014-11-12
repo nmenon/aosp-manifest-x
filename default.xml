@@ -2,14 +2,14 @@
 <manifest>
 
   <remote  name="ti-mirror"
-           fetch=".."
+           fetch="https://review.omapzoom.org/"
            review="https://review.omapzoom.org/" />
 
   <remote name="x15-product"
 	  fetch="https://github.com/nmenon/beaglex15.git" />
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
   <default revision="lollipop-dev"
