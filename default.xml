@@ -5,6 +5,10 @@
            fetch="http://review.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote name="ti-git"
+          fetch="git://git.ti.com" />
+
+
   <remote name="x15-product"
 	  fetch="https://github.com/" />
 
@@ -496,5 +500,6 @@
 
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
 
+ <project remote="ti-git" revision="master" path="external/libdrm" name="android-sdk/libdrm.git" groups="ti" />
 
 </manifest>
