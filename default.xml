@@ -501,5 +501,6 @@
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
 
  <project remote="ti-git" revision="master" path="external/libdrm" name="android-sdk/libdrm.git" groups="ti" />
+ <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
 
 </manifest>
