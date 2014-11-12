@@ -9,8 +9,12 @@
           fetch="git://git.ti.com" />
 
 
-  <remote name="x15-product"
+  <remote name="github"
 	  fetch="https://github.com/" />
+
+  <remote name="cyanogenmod"
+	fetch="review.cyanogenmod.org"
+	review="review.cyanogenmod.org" />
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/"
@@ -493,9 +497,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+<!-- CyanogenMod Addons -->
+
 <!-- TI addons -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
- <project remote="x15-product" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
+ <project remote="github" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
 
 
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
