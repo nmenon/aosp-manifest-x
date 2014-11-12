@@ -491,7 +491,7 @@
 
 <!-- TI addons -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
- <project remote="x15-product" revision="d-lolipop-release" path="device/ti/beaglex15" name="device/ti/beaglex15" groups="device,ti" />
+ <project remote="x15-product" revision="d-lollipop-release" path="device/ti/beaglex15" name="device/ti/beaglex15" groups="device,ti" />
 
 
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
