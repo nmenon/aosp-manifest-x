@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="ti-mirror"
-           fetch="https://review.omapzoom.org/"
-           review="https://review.omapzoom.org/" />
+           fetch="http://review.omapzoom.org/"
+           review="http://review.omapzoom.org/" />
 
   <remote name="x15-product"
 	  fetch="https://github.com/nmenon/beaglex15.git" />
