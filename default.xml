@@ -28,7 +28,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -496,6 +496,7 @@
 <!-- CyanogenMod Addons -->
 
 <!-- TI addons -->
+ <project remote="ti-mirror" revision="d-lollipop-release" path="bionic" name="platform/bionic" groups="pdk" />
  <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
  <project remote="github" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
 
