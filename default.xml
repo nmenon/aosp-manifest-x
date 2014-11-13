@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ti-mirror"
-           fetch="http://review.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
+  <remote name="ti-mirror"
+       	fetch="http://review.omapzoom.org/"
+       	review="http://review.omapzoom.org/" />
 
   <remote name="ti-git"
-          fetch="git://git.ti.com" />
-
+	fetch="git://git.ti.com" />
 
   <remote name="github"
-	  fetch="https://github.com/" />
+	fetch="https://github.com/" />
 
   <remote name="cyanogenmod"
 	fetch="review.cyanogenmod.org"
 	review="review.cyanogenmod.org" />
 
-  <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+  <remote name="aosp"
+       	fetch="https://android-review.googlesource.com/"
+       	review="https://android-review.googlesource.com/" />
 
   <default revision="lollipop-dev"
-           remote="aosp"
-           sync-j="4" />
+       	remote="aosp"
+       	sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
