@@ -474,12 +474,18 @@
 <!-- TI addons -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="bionic" name="platform/bionic" groups="pdk" />
  <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+ <project remote="ti-mirror" revision="d-lollipop-release" path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
+
+<!-- X15 stuff -->
  <project remote="github" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
 
-
+<!-- TI Connectivity stuff(not really needed) -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
 
- <project remote="ti-git" revision="master" path="external/libdrm" name="android-sdk/libdrm.git" groups="ti" />
+ <!-- TI MM -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
+ <project remote="ti-git" revision="master" path="external/libdrm" name="android-sdk/libdrm.git" groups="ti" />
+ <project remote="ti-git" revision="ipc-3.30-next" path="hardware/ti/ipc" name="ipc/ipcdev"  groups="ti" />
+ <project remote="ti-mirror" revision="master" path="hardware/ti/dce" name="repo/libdce" groups="ti" />
 
 </manifest>
