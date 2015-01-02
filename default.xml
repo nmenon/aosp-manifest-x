@@ -19,7 +19,7 @@
        	fetch="https://android-review.googlesource.com/"
        	review="https://android-review.googlesource.com/" />
 
-  <default revision="lollipop-dev"
+  <default revision="lollipop-release"
        	remote="aosp"
        	sync-j="4" />
 
