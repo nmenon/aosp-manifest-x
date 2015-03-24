@@ -478,6 +478,10 @@
 <!-- X15 stuff -->
  <project remote="github" revision="d-lollipop-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
 
+<!-- TI Basic Bootup stuff  -->
+ <project remote="ti-mirror" revision="p-ti-linux-3.14.y-android" path="kernel/ti/omap" name="kernel/omap" groups="device,ti" clone-depth="1" />
+ <project remote="ti-mirror" revision="p-ti-u-boot-2014.07" path="bootloader/ti/u-boot-omap" name="repo/u-boot" groups="device,ti" clone-depth="1" />
+
 <!-- TI Connectivity stuff(not really needed) -->
  <project remote="ti-mirror" revision="d-lollipop-release" path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
 
