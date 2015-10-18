@@ -3,6 +3,14 @@
 
   <remote name="git-ti-mirror"
 	   fetch="git://git.ti.com/" />
+
+  <remote name="github"
+	fetch="https://github.com/" />
+
+  <remote name="ti-oz-mirror"
+	fetch="http://review.omapzoom.org/"
+	review="http://review.omapzoom.org/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-6.0.0_r1"
@@ -477,9 +485,16 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+<!-- X15 stuff -->
+ <project remote="github" revision="d-marshmallow-release" path="device/ti/beaglex15" name="nmenon/beaglex15.git" groups="device,ti" />
+
+<!-- TI Basic Bootup stuff  -->
+ <project remote="ti-oz-mirror" revision="p-ti-linux-3.14.y-android" path="kernel/ti/omap" name="kernel/omap" groups="device,ti" clone-depth="1" />
+ <project remote="ti-oz-mirror" revision="p-ti-u-boot-2014.07" path="bootloader/ti/u-boot-omap" name="repo/u-boot" groups="device,ti" clone-depth="1" />
+
 <!-- TI addons from git.ti.com -->
   <project path="device/ti/proprietary-open" name="android-sdk/device-ti-proprietary-open" remote="git-ti-mirror" revision="d-marshmallow-release" groups="ti" />
-  <project path="device/ti/jacinto6evm" name="android-sdk/device-ti-jacinto6evm" remote="git-ti-mirror" revision="d-marshmallow-release" groups="device,ti" />
+
   <project path="hardware/ti/dra7xx" name="android-sdk/platform-hardware-ti-dra7xx" remote="git-ti-mirror" revision="d-marshmallow-release" groups="ti" />
   <project path="external/libdrm" name="android-sdk/libdrm" remote="git-ti-mirror" revision="marshmallow" groups="ti" />
   <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-mirror" revision="refs/tags/3.40.00.06" groups="ti" />
